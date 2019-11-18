@@ -66,7 +66,7 @@ exports.config = {
     //
     // Set a base URL in order to shorten getUrl command calls. If your getUrl
     // parameter starts with "/", then the base getUrl gets prepended.
-    baseUrl: 'http://localhost:8080',
+    baseUrl: 'http://localhost:4445',
     //
     // Default timeout for all waitFor* commands.
     waitforTimeout: 10000,
