@@ -1,0 +1,19 @@
+version: "3"
+services:
+  wdio-cucumber:
+    build: .
+    image: wdio-cucumber
+    container_name: wdio-cucumber
+    links:
+      - selenium
+    volumes:
+      - node_modules:/usr/src/app/node_modules/
+      - .:/usr/src/app
+
+  selenium:
+    image: selenium/standalone-chrome
+    expose:
+      - "4444"
+
+volumes:
+  node_modules: {}
