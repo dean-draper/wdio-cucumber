@@ -1,4 +1,5 @@
 exports.config = {
+    hostname: 'selenium',
     //
     // ==================
     // Specify Test Files
