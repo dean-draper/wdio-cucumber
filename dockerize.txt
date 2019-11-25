@@ -1,0 +1,9 @@
+Steps to run framework
+
+
+
+2) Start web server - using ws at the moment: ws -p 4445
+
+3) Start selenium server: npm start selenium-standalone
+
+4) run tests yarn run wdio
