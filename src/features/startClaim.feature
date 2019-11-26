@@ -4,6 +4,7 @@ Scenario: Start a claim
 
 Given I open the site ""
 When I open the site "/claim/property-type"
+Then  I wait on element "#propertyType" for 5000ms to be displayed
 When I click on the element ".govuk-radios__label"
 When I click on the button ".govuk-button"
 When I click on the button "#accessible"
