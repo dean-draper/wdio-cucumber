@@ -8,7 +8,7 @@ services:
       - selenium
 
   selenium:
-    image: selenium/standalone-chrome:3.7.1
+    image: selenium/standalone-chrome-debug:3.7.1
     expose:
       - "4444"
     privileged: true
