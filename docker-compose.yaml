@@ -12,3 +12,8 @@ services:
     expose:
       - "4444"
     privileged: true
+
+  hub:
+    image: selenium/hub:3.7.1
+    ports:
+      - "4444:4444"
